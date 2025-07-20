@@ -1,0 +1,44 @@
+/*!* Контейнер без фильтра *!*/
+/*.product_item.absent {*/
+/*    position: relative;*/
+/*}*/
+
+/*!* Граскейл только для изображений и остального контента *!*/
+
+/*.product_item.absent .product_info,*/
+/*.product_item.absent .price_cart_product {*/
+/*    filter: grayscale(100%);*/
+/*    transition: filter 0.3s ease;*/
+/*    img{*/
+/*        filter: grayscale(100%);*/
+/*    }*/
+/*}*/
+
+/*!* Надпись "absent" по умолчанию *!*/
+/*.product_item.absent .in_stock {*/
+/*    color: black;*/
+/*    font-weight: bold;*/
+/*    transition: all 0.3s ease;*/
+/*    position: relative;*/
+/*    z-index: 1;*/
+/*}*/
+
+/*!* При ховере — ничего не меняем с фильтром, он остается черно-белым *!*/
+/*.product_item.absent:hover {*/
+/*    !* ничего не делаем, фильтр остается *!*/
+/*}*/
+
+/*!* Надпись "absent" при ховере — по центру, красной, увеличенной *!*/
+/*.product_item.absent:hover .in_stock {*/
+/*    -webkit-filter: grayscale(0%);*/
+/*    filter: none !important;*/
+/*    position: fixed;*/
+/*    top: 50%;*/
+/*    left: 50%;*/
+/*    transform: translate(-50%, -50%);*/
+/*    color: inherit; !* делаем красным *!*/
+/*    font-size: 2em;*/
+/*    font-weight: bold;*/
+/*    background: transparent;*/
+/*    z-index: 4;*/
+/*}*/

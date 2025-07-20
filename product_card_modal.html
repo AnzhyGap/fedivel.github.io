@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/product_cart_modal.css">
+    <title>Product_cart_modal</title>
+</head>
+<body>
+<main>
+    <div class="wrapper">
+        <div class="product_modal">
+            <div class="headline_modal">
+                <a href="#"><h2 class="semibold">Our products</h2></a>
+                <svg width="60" height="24" viewBox="0 0 60 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M50 13.5C50.8284 13.5 51.5 12.8284 51.5 12C51.5 11.1716 50.8284 10.5 50 10.5V13.5ZM0.939339 10.9393C0.353554 11.5251 0.353554 12.4749 0.939339 13.0607L10.4853 22.6066C11.0711 23.1924 12.0208 23.1924 12.6066 22.6066C13.1924 22.0208 13.1924 21.0711 12.6066 20.4853L4.12132 12L12.6066 3.51472C13.1924 2.92893 13.1924 1.97919 12.6066 1.3934C12.0208 0.807611 11.0711 0.807611 10.4853 1.3934L0.939339 10.9393ZM50 10.5L2 10.5V13.5L50 13.5V10.5Z"
+                          fill="#E95522"/>
+                </svg>
+            </div>
+            <div class="product_info_modal">
+                <div class="product_image_modal">
+                    <div class="main_img_modal">
+                        <img src="/images/modal_main_img.png" alt="">
+                    </div>
+                    <div class="preview_img_modal">
+                        <img src="/images/modal_main_img.png" alt="">
+                        <img src="/images/modal_main_img.png" alt="">
+                        <img src="/images/modal_main_img.png" alt="">
+                    </div>
+                </div>
+                <div class="product_text_modal">
+                    <div class="product_container">
+                        <span class="product_name semibold"> Sunflower shell pellets, in 15 kg bags on pallets
+                                <span>(delivery only by full trucks of 22 tons, pricenegotiable)</span>
+                        </span>
+                        <span class="in_stock_modal h4 bold">In stock</span>
+                        <div class="text-block">
+                            <input type="checkbox" id="expand-toggle"
+                                   onchange="if(!this.checked) this.nextElementSibling.querySelector('.text-content').scrollTop=0">
+                            <div class="content-wrapper">
+                                <div class="text-content">
+                                    <p>It is an environmentally friendly and efficient fuel made from the leftover
+                                        shells of
+                                        sunflower seeds. These
+                                        are compressed pellets that have a high calorific value and low ash content,
+                                        making
+                                        them convenient and
+                                        eco-friendly for use in heating systems. Using sunflower shell pellets helps to
+                                        efficiently utilize
+                                        agricultural waste, reducing the environmental burden and providing affordable
+                                        and
+                                        renewable fuel for both
+                                        residential and industrial needs. This type of fuel is suitable for heating
+                                        residential buildings,
+                                        industrial boilers, and energy installations focused on renewable energy
+                                        sources.</p>
+                                </div>
+                                <div class="fade-out"></div>
+                                <div class="toggle-btn">
+                                    <label for="expand-toggle" class="toggle-label">
+                                        <span class="more">see more...</span>
+                                        <span class="less">see less...</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <h2 class="bold">100 zl</h2>
+                        <div class="button_modal">
+                            <button class="btn_modal h4 semibold" type="button">Add to Cart</button>
+                        </div>
+                        <div class="nav_modal">
+                            <a href="#" class="nav_modal_about_us">
+                                <svg width="51" height="17" viewBox="0 0 51 17" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7.52344 7.46328C6.91636 7.46328 6.42422 7.95542 6.42422 8.5625C6.42422 9.16958 6.91636 9.66172 7.52344 9.66172L7.52344 7.46328ZM43.4757 9.33977C43.905 8.9105 43.905 8.21451 43.4757 7.78524L36.4803 0.789854C36.051 0.360582 35.3551 0.360582 34.9258 0.789854C34.4965 1.21913 34.4965 1.91511 34.9258 2.34438L41.1439 8.56251L34.9258 14.7806C34.4965 15.2099 34.4965 15.9059 34.9258 16.3352C35.3551 16.7644 36.051 16.7644 36.4803 16.3352L43.4757 9.33977ZM7.52344 8.5625L7.52344 9.66172L42.6984 9.66172L42.6984 8.56251L42.6984 7.46329L7.52344 7.46328L7.52344 8.5625Z"
+                                          fill="#C0C0C0"/>
+                                </svg>
+                                <span class="h5 bold">About us</span>
+                            </a>
+                            <a href="#" class="nav_modal_contacts">
+                                <svg width="51" height="17" viewBox="0 0 51 17" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7.52344 7.46328C6.91636 7.46328 6.42422 7.95542 6.42422 8.5625C6.42422 9.16958 6.91636 9.66172 7.52344 9.66172L7.52344 7.46328ZM43.4757 9.33977C43.905 8.9105 43.905 8.21451 43.4757 7.78524L36.4803 0.789854C36.051 0.360582 35.3551 0.360582 34.9258 0.789854C34.4965 1.21913 34.4965 1.91511 34.9258 2.34438L41.1439 8.56251L34.9258 14.7806C34.4965 15.2099 34.4965 15.9059 34.9258 16.3352C35.3551 16.7644 36.051 16.7644 36.4803 16.3352L43.4757 9.33977ZM7.52344 8.5625L7.52344 9.66172L42.6984 9.66172L42.6984 8.56251L42.6984 7.46329L7.52344 7.46328L7.52344 8.5625Z"
+                                          fill="#C0C0C0"/>
+                                </svg>
+                                <span class="h5 bold">Contacts</span>
+                            </a>
+                            <a href="#" class="nav_modal_sale">
+                                <svg width="51" height="17" viewBox="0 0 51 17" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7.52344 7.46328C6.91636 7.46328 6.42422 7.95542 6.42422 8.5625C6.42422 9.16958 6.91636 9.66172 7.52344 9.66172L7.52344 7.46328ZM43.4757 9.33977C43.905 8.9105 43.905 8.21451 43.4757 7.78524L36.4803 0.789854C36.051 0.360582 35.3551 0.360582 34.9258 0.789854C34.4965 1.21913 34.4965 1.91511 34.9258 2.34438L41.1439 8.56251L34.9258 14.7806C34.4965 15.2099 34.4965 15.9059 34.9258 16.3352C35.3551 16.7644 36.051 16.7644 36.4803 16.3352L43.4757 9.33977ZM7.52344 8.5625L7.52344 9.66172L42.6984 9.66172L42.6984 8.56251L42.6984 7.46329L7.52344 7.46328L7.52344 8.5625Z"
+                                          fill="#C0C0C0"/>
+                                </svg>
+                                <span class="h5 bold">Sale</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+</body>
+</html>
