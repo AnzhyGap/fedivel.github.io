@@ -11,27 +11,8 @@
           rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
     <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script defer src="js/jquery-3.7.1.js">
-        jQuery(document).ready(function ($) {
-            $('#header').load('/header.html');
-            $('#footer').load('/footer.html');
-        });
 
-
-        /**
-         * Всплывающий при скролле header
-         */
-//TODO FLYING HEADER
-        window.addEventListener('scroll', () => {
-            const header = document.querySelector('.container_flying_header');
-
-            if (window.scrollY < 76) {
-                header.classList.add('scroll_visible');
-            } else {
-                header.classList.remove('scroll_visible');
-            }
-        });
-    </script>
+    <script src=""></script>
     <title>Fedivel</title>
 </head>
 <body>
@@ -463,6 +444,7 @@
 </main>
 
 <footer id="footer"></footer>
+<script defer src="js/jquery-3.7.1.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
