@@ -131,7 +131,7 @@
 
 <div class="container_flying_header scroll_visible">
     <div class="flying_header">
-        <a href="#header"><img src="/icon/logo_flying_header.svg" alt=""></a>
+        <a href="#header"><img src="icon/logo_flying_header.svg" alt=""></a>
         <div class="nav_flying_header">
             <a href="#our_products"><span class="h5 bold">Products</span></a>
             <a href="#about_us"><span class="h5 bold">About us</span></a>
@@ -143,3 +143,15 @@
         </svg>
     </div>
 </div>
+
+<script>
+    window.addEventListener('scroll', () => {
+        const header = document.querySelector('.container_flying_header');
+
+        if (window.scrollY < 76) {
+            header.classList.add('scroll_visible');
+        } else {
+            header.classList.remove('scroll_visible');
+        }
+    });
+</script>
