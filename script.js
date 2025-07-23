@@ -1,3 +1,4 @@
+console.log('test');
 jQuery(document).ready(function ($) {
     $('#header').load('fedivel.github.io/header.html');
     $('#footer').load('/footer.html');
