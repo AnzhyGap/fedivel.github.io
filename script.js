@@ -1,10 +1,3 @@
-// console.log('test');
-// document.ready(function ($) {
-//     $('#header').load('header.html');
-//     $('#footer').load('footer.html');
-// });
-
-
 /**
  * Всплывающий при скролле header
  */
