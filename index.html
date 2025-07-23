@@ -444,5 +444,12 @@
 <footer id="footer"></footer>
 <script src="script.js"></script>
 <script defer src="js/jquery-3.7.1.js"></script>
+<script>
+    fetch('header.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('header').innerHTML = data;
+        });
+</script>
 </body>
 </html>
