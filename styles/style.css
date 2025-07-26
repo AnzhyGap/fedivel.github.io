@@ -103,6 +103,10 @@ h2 {
     font-weight: 700;
 }
 
+.text_white {
+    -webkit-text-fill-color: var(--color_white);
+}
+
 a {
     text-decoration: none;
     -webkit-text-fill-color: var(--color_black);
