@@ -6,9 +6,7 @@ fetch('header.html')
         const burgerCheckbox = document.querySelector('.burger');
         console.log(burgerCheckbox);
         burgerCheckbox.addEventListener('click', () => {
-        console.log('clicked');
-        document.body.classList.toggle('no-scroll')
-            console.log('added')
+            document.body.classList.toggle('no-scroll')
         });
     });
 
