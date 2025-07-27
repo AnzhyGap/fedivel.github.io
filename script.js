@@ -2,6 +2,14 @@ fetch('header.html')
     .then(response => response.text())
     .then(data => {
         document.getElementById('header').innerHTML = data;
+        /*********** No scroll body if burger menu opened ***********/
+        const burgerCheckbox = document.querySelector('.burger');
+        console.log(burgerCheckbox);
+        burgerCheckbox.addEventListener('click', () => {
+        console.log('clicked');
+        document.body.classList.toggle('no-scroll')
+            console.log('added')
+        });
     });
 
 fetch('footer.html')
