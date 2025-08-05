@@ -45,7 +45,7 @@
 
 .main_img_modal {
     width: fit-content;
-    border-radius: 18px;
+    border-radius: 20px;
 
     img {
         max-width: 468px;
@@ -187,6 +187,7 @@
     cursor: pointer;
     max-width: 428px;
     width: 100%;
+    -webkit-text-fill-color: var(--color_black);
 }
 
 .btn_modal:hover {
