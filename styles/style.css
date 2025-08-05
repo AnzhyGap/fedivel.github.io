@@ -620,7 +620,7 @@ main {
 
 .main_img_modal {
     width: fit-content;
-    border-radius: 18px;
+    border-radius: 20px;
     position: relative;
 
     img {
