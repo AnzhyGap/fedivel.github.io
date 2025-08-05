@@ -763,6 +763,7 @@ main {
     cursor: pointer;
     max-width: 428px;
     width: 100%;
+    -webkit-text-fill-color: var(--color_black);
 }
 
 .btn_modal:hover {
