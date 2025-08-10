@@ -4,7 +4,6 @@ fetch('header.html')
         document.getElementById('header').innerHTML = data;
         /*********** No scroll body if burger menu opened ***********/
         const burgerCheckbox = document.querySelector('.burger');
-        console.log(burgerCheckbox);
         burgerCheckbox.addEventListener('click', () => {
             document.body.classList.toggle('no-scroll')
         });
