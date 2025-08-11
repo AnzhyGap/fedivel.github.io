@@ -1,0 +1,17 @@
+.modal_window {
+    width: 1408px;
+
+    form {
+        max-width: unset;
+    }
+}
+
+.name_input, .tel_input, .comment_input {
+    max-width: unset;
+}
+
+
+
+.select_time_delivery > span {
+    -webkit-text-fill-color: var(--color_orange);
+}
