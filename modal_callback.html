@@ -15,26 +15,29 @@
 </head>
 <body>
 <main>
-<div class="modal_window">
-    <form action="">
-
-
-
-
-
-
-
-
-
-
-
-    </form>
-
-
-
-</div>
-
-
+    <div class="modal_window">
+        <form action="">
+            <div class="form_inputs">
+                <div class="tel_input">
+                    <label for="phone" class="medium">Phone number&nbsp;<span>*</span></label>
+                    <input type="tel" name="phone" id="phone" placeholder="Enter your phone number">
+                    <span>This field is required</span>
+                </div>
+                <div class="name_input">
+                    <label for="name" class="medium">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="comment_input">
+                    <label for="comments" class="medium">Comments</label>
+                    <textarea name="comments" id="comments" cols="2"></textarea>
+                </div>
+            </div>
+            <div class="btn_form_callback">
+                <button type="submit" class="btn_confirm h4 semibold">Ok</button>
+                <button type="button" class="btn_cancel h5 semibold">Cancel</button>
+            </div>
+        </form>
+    </div>
 </main>
 </body>
 </html>
