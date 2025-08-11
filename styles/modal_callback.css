@@ -43,11 +43,18 @@ body {
         justify-content: flex-start;
         padding: 6px 8px;
         outline: none;
+        border: 1px solid var(--color_grey2);
     }
 
     span {
         -webkit-text-fill-color: var(--color_orange);
     }
+}
+
+.explanation {
+    -webkit-text-fill-color: var(--color_orange);
+    font-size: 10px;
+    line-height: 12px;
 }
 
 .tel_input > span {
@@ -63,6 +70,7 @@ input::placeholder {
 textarea {
     padding: 6px 8px;
     outline: none;
+    border: 1px solid var(--color_grey2);
 }
 
 .btn_form_callback {

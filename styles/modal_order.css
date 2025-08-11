@@ -3,6 +3,7 @@
 
     form {
         max-width: unset;
+        gap: 62px;
     }
 }
 
@@ -10,8 +11,43 @@
     max-width: unset;
 }
 
+.time_delivery, .zip_input, .country_input, .city_input, .street_input, .mail_input {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 100%;
 
+    input {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 6px 8px;
+        outline: none;
+        border: 1px solid var(--color_grey2);
+    }
+
+    span {
+        -webkit-text-fill-color: var(--color_orange);
+    }
+}
 
 .select_time_delivery > span {
     -webkit-text-fill-color: var(--color_orange);
+}
+
+.explanation {
+    -webkit-text-fill-color: var(--color_orange);
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.btn_form_callback {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+}
+
+.btn_confirm {
+    width: 250px;
 }
