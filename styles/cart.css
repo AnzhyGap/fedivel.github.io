@@ -35,7 +35,7 @@ main > .wrapper {
     padding: 10px 16px 10px 10px;
     border: none;
     border-radius: 20px;
-    background: var(--color_grey5);
+    background: var(--color_grey2_3);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -80,7 +80,7 @@ main > .wrapper {
     max-width: 288px;
     width: 100%;
     border-radius: 8px;
-    background: var(--color_grey5);
+    background: var(--color_grey2_3);
     align-items: center;
     border: none;
 }
